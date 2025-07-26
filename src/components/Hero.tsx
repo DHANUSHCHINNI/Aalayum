@@ -43,7 +43,7 @@ const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
+              className="gradient-gold text-primary hover:scale-105 transition-transform text-lg px-8 py-6"
             >
               Reserve Table
             </Button>
