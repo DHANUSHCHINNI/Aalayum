@@ -16,8 +16,12 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <div className="text-2xl font-bold text-gradient">
-          Spice Palette
+        <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/ed963b6b-bb88-4261-bbbd-794296652fec.png" 
+            alt="Aalayum Cafe" 
+            className="h-10 w-auto"
+          />
         </div>
         
         {/* Desktop Navigation */}

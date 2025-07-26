@@ -2,8 +2,18 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const StorySection = () => {
   return (
-    <section id="story" className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-4">
+    <section 
+      id="story" 
+      className="py-20 bg-secondary/30 relative"
+      style={{
+        backgroundImage: `url('/lovable-uploads/17aa0fdc-339c-407d-a96d-bef5f25093c8.png')`,
+        backgroundSize: '200px 200px',
+        backgroundRepeat: 'repeat',
+        backgroundBlendMode: 'multiply'
+      }}
+    >
+      <div className="absolute inset-0 bg-secondary/80"></div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             Our Story
@@ -19,7 +29,7 @@ const StorySection = () => {
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold text-primary mb-4">Heritage & Tradition</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Founded in 1987 by our grandmother Lakshmi Amma, Spice Palette began as a small family kitchen 
+                  Founded in 1987 by our grandmother Lakshmi Amma, Aalayum began as a small family kitchen 
                   sharing authentic recipes from the heart of Tamil Nadu and Kerala. What started as a passion for 
                   preserving traditional flavors has grown into a beloved restaurant that serves the community with 
                   the same love and authenticity.

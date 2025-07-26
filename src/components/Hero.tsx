@@ -21,9 +21,16 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 text-center z-10">
         <div className="max-w-4xl mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/lovable-uploads/f67a9f35-21e2-4153-8cd8-a621b036f897.png" 
+              alt="The Aalayum Cafe" 
+              className="h-32 md:h-40 w-auto animate-float"
+            />
+          </div>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Authentic South Indian
-            <span className="block text-accent animate-float">Flavors</span>
+            <span className="block text-accent">Flavors</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             Experience the rich heritage of South Indian cuisine with traditional recipes 

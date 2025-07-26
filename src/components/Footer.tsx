@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-accent">Spice Palette</h3>
+            <h3 className="text-2xl font-bold text-accent">Aalayum Cafe</h3>
             <p className="text-primary-foreground/80">
               Authentic South Indian cuisine served with tradition, love, and the finest ingredients. 
               Experience the true flavors of our heritage.
@@ -95,7 +95,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <p className="text-primary-foreground/80 text-sm">info@spicepalette.com</p>
+                <p className="text-primary-foreground/80 text-sm">info@aalayum.com</p>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/80 text-sm">
-            © 2024 Spice Palette. All rights reserved. | Crafted with ❤️ for authentic South Indian cuisine lovers.
+            © 2024 Aalayum Cafe. All rights reserved. | Crafted with ❤️ for authentic South Indian cuisine lovers.
           </p>
         </div>
       </div>
