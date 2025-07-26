@@ -30,12 +30,8 @@ const Hero = () => {
           </div>
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-playfair">
             Aalayum
-            <span className="block text-accent text-3xl md:text-4xl font-normal">Authentic South Indian Flavors</span>
+            <span className="block text-accent text-3xl md:text-4xl font-normal mt-4">Authentic South Indian Flavors</span>
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Experience the rich heritage of South Indian cuisine with traditional recipes 
-            passed down through generations, served with love and authenticity.
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               onClick={scrollToMenu}
