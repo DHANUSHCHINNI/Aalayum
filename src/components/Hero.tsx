@@ -28,9 +28,9 @@ const Hero = () => {
               className="h-32 md:h-40 w-auto animate-float"
             />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Authentic South Indian
-            <span className="block text-accent">Flavors</span>
+          <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 font-playfair">
+            Aalayum
+            <span className="block text-accent text-3xl md:text-4xl font-normal">Authentic South Indian Flavors</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             Experience the rich heritage of South Indian cuisine with traditional recipes 
