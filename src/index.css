@@ -2,39 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* South Indian Restaurant Design System - Deep maroon, sandalwood beige, temple gold */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* South Indian Color Palette */
+    --background: 42 45% 94%;  /* Sandalwood beige */
+    --foreground: 0 45% 15%;   /* Deep maroon dark */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 42 35% 97%;
+    --card-foreground: 0 45% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 42 35% 97%;
+    --popover-foreground: 0 45% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 65% 25%;      /* Deep maroon */
+    --primary-foreground: 42 45% 94%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 42 25% 85%;   /* Light sandalwood */
+    --secondary-foreground: 0 45% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 42 20% 88%;
+    --muted-foreground: 0 25% 35%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 95% 55%;      /* Temple gold */
+    --accent-foreground: 0 45% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 42 45% 94%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 42 15% 80%;
+    --input: 42 15% 85%;
+    --ring: 45 95% 55%;
 
     --radius: 0.5rem;
 
@@ -101,5 +100,46 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Custom gradients and effects */
+  .gradient-gold {
+    background: linear-gradient(135deg, hsl(var(--accent)), hsl(45 85% 65%));
+  }
+  
+  .gradient-maroon {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(0 55% 35%));
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Menu item hover effect */
+  .menu-item {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px -5px hsl(var(--primary) / 0.2);
+  }
+
+  /* Floating animation */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
   }
 }
