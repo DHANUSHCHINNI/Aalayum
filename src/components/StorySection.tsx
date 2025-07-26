@@ -1,14 +1,13 @@
 import { Card, CardContent } from "@/components/ui/card";
-
 const StorySection = () => {
   return (
-    <section 
-      id="story" 
+    <section
+      id="story"
       className="py-20 bg-secondary/30 relative"
       style={{
-        backgroundImage: `url('/lovable-uploads/17aa0fdc-339c-407d-a96d-bef5f25093c8.png')`,
-        backgroundSize: '200px 200px',
-        backgroundRepeat: 'repeat',
+        backgroundImage: 'url("/v1043-003a.jpg")',
+        backgroundSize: 'center',
+        backgroundRepeat: 'no-repeat',
         backgroundBlendMode: 'multiply'
       }}
     >
@@ -29,9 +28,9 @@ const StorySection = () => {
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold text-primary mb-4">Heritage & Tradition</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Founded in 1987 by our grandmother Lakshmi Amma, Aalayum began as a small family kitchen 
-                  sharing authentic recipes from the heart of Tamil Nadu and Kerala. What started as a passion for 
-                  preserving traditional flavors has grown into a beloved restaurant that serves the community with 
+                  Founded in 1987 by our grandmother Lakshmi Amma, Aalayum began as a small family kitchen
+                  sharing authentic recipes from the heart of Tamil Nadu and Kerala. What started as a passion for
+                  preserving traditional flavors has grown into a beloved restaurant that serves the community with
                   the same love and authenticity.
                 </p>
               </CardContent>
@@ -41,9 +40,9 @@ const StorySection = () => {
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold text-primary mb-4">Our Vision</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  We believe in serving food that nourishes not just the body, but the soul. Every dish is prepared 
-                  with traditional methods, using spices ground fresh daily and recipes that have been passed down 
-                  through three generations. Our vision is to be a bridge between the rich culinary heritage of 
+                  We believe in serving food that nourishes not just the body, but the soul. Every dish is prepared
+                  with traditional methods, using spices ground fresh daily and recipes that have been passed down
+                  through three generations. Our vision is to be a bridge between the rich culinary heritage of
                   South India and food lovers everywhere.
                 </p>
               </CardContent>
@@ -55,8 +54,8 @@ const StorySection = () => {
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold text-primary mb-4">Fresh Ingredients</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  We source our ingredients directly from local farmers and trusted suppliers who share our 
-                  commitment to quality. From hand-picked curry leaves to stone-ground spices, every ingredient 
+                  We source our ingredients directly from local farmers and trusted suppliers who share our
+                  commitment to quality. From hand-picked curry leaves to stone-ground spices, every ingredient
                   is carefully selected to ensure the authentic taste that defines South Indian cuisine.
                 </p>
               </CardContent>
@@ -66,8 +65,8 @@ const StorySection = () => {
               <CardContent className="p-0">
                 <h3 className="text-2xl font-bold text-primary mb-4">Community & Culture</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  More than just a restaurant, we are a cultural hub where families gather to celebrate traditions 
-                  and create memories. Our warm hospitality reflects the South Indian philosophy of "Atithi Devo Bhava" 
+                  More than just a restaurant, we are a cultural hub where families gather to celebrate traditions
+                  and create memories. Our warm hospitality reflects the South Indian philosophy of "Atithi Devo Bhava"
                   - treating guests as divine. Every meal is an opportunity to share our culture and stories.
                 </p>
               </CardContent>
